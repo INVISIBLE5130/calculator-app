@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# Calculator App Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the documentation for the Calculator App! This calculator app is built using React and allows you to perform basic calculations.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Features](#features)
+- [Usage](#usage)
+- [Build](#build)
+- [Dependencies](#dependencies)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Before you begin, make sure you have the following installed on your system:
 
-### `npm test`
+- [Node.js](https://nodejs.org/) (v18.7.0 recommended)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the Calculator App repository from GitHub:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/your-username/calculator-app.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Change to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd calculator-app
+   ```
 
-### `npm run eject`
+3. Install project dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run the app in development mode, use the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+The app will open in your default web browser at [http://localhost:3000](http://localhost:3000). You can now use the calculator for calculations.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Perform basic calculations (addition, subtraction, multiplication, division).
+- Display the history of the last 20 clicked buttons.
+- Clear the calculation history.
+
+## Usage
+
+- Use the numeric buttons (0-9) to input numbers for calculations.
+- Use the operation buttons (+, -, *, /) to perform calculations.
+- Press the "=" button to see the result of the calculation.
+- The last 20 clicked buttons are displayed in the history section.
+- Click the "Clear History" button to clear the calculation history.
+
+## Build
+
+To build the app for production, use the following command:
+
+```bash
+npm run build
+```
+
+The optimized production build will be available in the `build` folder.
+
+## Dependencies
+
+All project dependencies are managed using Node.js v18.7.0. You can find the complete list of dependencies in the `package.json` file.

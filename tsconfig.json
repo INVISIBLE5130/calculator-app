@@ -20,7 +20,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src", "node_modules/react-router-dom/types"],
+  "exclude": ["node_modules"]
 }
